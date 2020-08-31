@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnfProg 2020 | Deleksamen 1</title>
+    <style>
+        section { height: 100vh; display: block; overflow:hidden; padding: 0; position: relative; background-image: url(1383.jpg); background-position: bottom center; background-size: 100% auto; }
+        h1 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #b61010; color: #fff; font-size: 5rem; padding: 1rem; }
+    </style>
+</head>
+<body>
+    <section id="fill">
+        <h1 id="text">Fix me!</h1>
+    </section>
+    <script>
+        //Først setter vi noen variabler
+        var success = 1383;
+        var twofivefive = "0, 255, 0";
+// la til endepunkt.
+        var action = "Mad";
+        var person = "Yo";
+
+        var error_margin = 97;
+
+        var double_margin = error_margin * 2; 
+        success = success + double_margin;
+// delte linjen og la til ending
+        //Så sjekker vi om vi har løst alle feilene
+        // fikset kommentar 
+        if(success = 1577) {
+            person = person + "u";
+            action = action + "e";
+            //fjernet ekstra pluss
+        } else {
+            var twofivefive = "255, 0, 0";
+        }
+        
+        //Til slutt endrer vi til riktige verdier
+        document.getElementById("fill").style.backgroundImage = "url(" + success + ".jpg)";
+        //fikset skrivefeil  
+        document.getElementById("text").style.backgroundColor = "rgb(" + twofivefive + ")";
+        //fikset skrivefeil
+        document.getElementById("text").innerHTML = person + " " + action + " it!";
+    </script>
+</body>
+</html>
